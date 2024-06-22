@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+    
+</head>
+<body>
+    <header id="barrah">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Pasteleria Mariale</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Redes">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#clasicos">Clasicos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#Especiales">Especiales</a></li>
+                      <li><a class="dropdown-item" href="#clasicos">Clasicos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+       
+    </header>
+   
+    <div id="carouselExample" class="carousel slide">
+        <div id="carru">
+          <div class="carousel-item active">
+            <img height="250px";width="200px"; src="./IMAGENES/im1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="250px";width="200px"; src="./IMAGENES/im2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="250px";width="200px"; src="./IMAGENES/immg3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    
+      </div>
+     <main>
+        <h3>En esta pagina web vamos a vender postres caseros</h3>
+     <br>
+        <h3 id="clasicos" class="subtitulos">CLASICOS</h3>
+        <section  class="contenedor">
+            <div class="carta"> 
+                <h3>Pastel de Chocolate</h3>
+                <img width="100px" height="80px" src="./IMAGENES/choco.jpg" alt="">
+                <button>comprar</button>
+            </div>
+<br>
+            <div class="carta">
+                <h3>Pastel de Vainilla</h3>
+                <img width="100px" height="80px" src="./IMAGENES/vainilla.jpg" alt="">
+                <button>comprar</button>
+            </div>
+            <br>
+            <div class="carta">
+                <h3>Cupcake</h3>
+                <img width="100px" height="80px" src="./IMAGENES/cupcake.jpg" alt="">
+                <button>comprar</button>
+            </div>
+            <br>
+        </section>
+
+        <div>
+            <br>
+        </div>
+           <h3 id="Especiales" class="subtitulos">ESPECIALES</h3>
+        <section class="contenedor">
+            <div class="carta"> 
+                <h3>Pastel de Naranja</h3>
+                <img width="100px" height="80px" src="./IMAGENES/naranja.jpg" alt="">
+                <button>comprar</button>
+            </div>
+<br>
+            <div class="carta">
+                <h3>medialunas</h3>
+                <img width="100px" height="80px" src="./IMAGENES/media.jpg" alt="">
+                <button>comprar</button>
+            </div>
+<br>
+            <div class="carta">
+                <h3>Sanguchito de miga</h3>
+               <img width="100px" height="80px" src="./IMAGENES/sanguche de miga.jpg" alt="">
+                <button>comprar</button>
+            </div>
+             </section>
+    </main>
+<br>
+    <footer>
+    <h3> CONSULTAS</h3>
+   <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <section id="Redes">
+    <h4>Para mas Informacion Contactanos</h4>
+    <img width="50px" height="50px" src="../AP-Desarrollo Web/logo ig.jpg" alt="instagram">
+    <img width="50px" height="50px" src="../AP-Desarrollo Web/logo face.png" alt="facebook">
+    <img width="50px" height="50px" src="../AP-Desarrollo Web/logo what.png" alt="whatsapp">
+</section>
+
+<section id="derechosautor">
+    <h3 style="color: beige; font-family: sans-serif;font-size: large;">Derechos de autor</h3>
+</section>
+<section id="otros">
+    <ul>
+        <li>PODES CONTACTARNOS</li>
+        <LI>Mail:xxx@xx.com</LI>
+        <li>TEL:xxx3xxxx</li>
+    </ul>
+</section>
+
+
+    </footer>
+</body>
+</html>

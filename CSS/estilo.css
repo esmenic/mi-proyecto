@@ -1,0 +1,117 @@
+body{background-color: lightblue;
+}
+
+
+@media(min-width:1000px){
+    header{
+        height: 400px;
+    
+    
+        background-image: url(../IMAGENES/pasteleria\ fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .contenedor{
+        display: flex;
+        justify-content: space-around
+    }   
+    }
+    .carta{
+        height: 200px;
+        width: 150px;
+        background-color: rgb(200, 211, 223);
+        border: 3px cadetblue solid;
+        text-align: center;
+    
+    }
+
+     .subtitulos{
+        text-align: center;
+        background-color: beige;
+        color: lightblue;
+        font-size: 30px;}
+
+@media (max-width:999px)   {
+    header{
+        height: 150px;
+        background-image: url(../IMAGENES/foto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    
+    .contenedor{
+        display: grid;
+        justify-content: center
+    }   
+    .carta{
+        height: 200px;
+        width: 150px;
+        background-color: rgb(221, 226, 231);
+        border: 3px cadetblue solid;
+        text-align: center;}
+
+        #subtitulos{
+            text-align: center;
+            background-color: beige;
+            color: lightblue;
+            font-size: 30px;
+        }
+    }
+
+    @media(max-width:599px){
+
+        body{
+            background-color: lightblue;
+        }
+        header{
+            height: 150px;
+            background-image: url(../IMAGENES/foto.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+        }
+    
+        
+        .contenedor{
+            display: grid;
+            justify-content: center
+        }   
+        .carta{
+            height: 200px;
+            width: 150px;
+            background-color: rgb(189, 210, 231);
+            border: 3px cadetblue solid;
+            text-align: center;}
+    
+            #subtitulos{
+                text-align: center;
+                background-color: beige;
+                color: lightblue;
+                font-size: 30px;
+            }
+
+    
+
+
+    }
+
+    footer{
+        background-color: beige;
+        height: 200px
+    }
+  #carru{
+    
+    width: 50%;
+   margin-right: 50px;
+    align-content: center;
+    
+    
+  }
+
+  section{margin-top: 100px;}
+  #clasicos{
+    margin-top: 80px;
+  }
+    
